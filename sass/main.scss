@@ -1,0 +1,43 @@
+main {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.betting {
+    display: flex;
+    
+    & > * {
+        margin-right: 10px;
+    }
+}
+
+.cards {
+    display: flex;
+
+    .card {
+        padding: 10px;
+        cursor: pointer;
+
+        &.highlighted {
+            background-color: #0f0;
+        }
+
+        &.discarded {
+            background-color: rgba(0, 0, 0, 0.1);
+            opacity: 0.2;
+        }
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.4);
+            opacity: 0.5;
+        }
+
+        img {
+            width: 100px;
+        }
+    }
+}
+
+.play-button {
+    font-size: 30px;
+}

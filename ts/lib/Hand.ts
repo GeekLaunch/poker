@@ -102,7 +102,7 @@ class Kinds {
 }
 
 class Hand {
-    private cards: Card[];
+    public readonly cards: Card[];
 
     public constructor (cards?: Card[]) {
         if (cards !== undefined) {
