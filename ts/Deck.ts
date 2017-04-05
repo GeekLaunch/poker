@@ -12,7 +12,7 @@ class Deck {
     }
 
     public shuffle (): void {
-        for (let i = this.cards.length; i >= 0; i--) {
+        for (let i = this.cards.length; i > 0; i--) {
             let j = Math.floor(Math.random() * i);
             [this.cards[i - 1], this.cards[j]] = [this.cards[j], this.cards[i - 1]];
         }
