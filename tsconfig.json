@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "outFile": "./js/app.js",
-        "target": "es5",
+        "target": "es6",
         "noImplicitThis": true,
         "strictNullChecks": true,
         "sourceMap": true
