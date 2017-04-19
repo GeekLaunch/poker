@@ -1,5 +1,5 @@
 class Round {
-    private deck: Deck;
+    public readonly deck: Deck;
     public readonly hand: Hand;
     public readonly bet: number;
 
